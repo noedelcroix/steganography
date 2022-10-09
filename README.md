@@ -1,4 +1,4 @@
-# sysg4 - Stéganographie
+# sysg4 - g55990 - Stéganographie
 
 ## Bibliographie
 ### Idées de stéganographie :
