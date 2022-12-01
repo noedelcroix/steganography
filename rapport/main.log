@@ -1,0 +1,375 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.1)  1 DEC 2022 15:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen141
+\ttl@minus=\dimen142
+\ttl@toksa=\toks18
+\titlewidth=\dimen143
+\titlewidthlast=\dimen144
+\titlewidthfirst=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box48
+)
+(./main.aux (./parts/introduction.aux) (./parts/lsb.aux)
+(./parts/lsb-pratique.aux) (./parts/zero-width-character.aux)
+(./parts/zero-width-character-en-pratique.aux) (./parts/conclusion.aux)
+(./parts/references.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count186
+\scratchdimen=\dimen146
+\scratchbox=\box49
+\nofMPsegments=\count187
+\nofMParguments=\count188
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count189
+\MPscratchDim=\dimen147
+\MPnumerator=\count190
+\makeMPintoPDFobject=\count191
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2]
+\openout2 = `parts/introduction.aux'.
+
+
+(./parts/introduction.tex) [3
+
+]
+\openout2 = `parts/lsb.aux'.
+
+ (./parts/lsb.tex
+Package epstopdf Info: Source file: <img/png-file-format.eps>
+(epstopdf)                    date: 2022-12-01 02:47:33
+(epstopdf)                    size: 73359 bytes
+(epstopdf)             Output file: <img/png-file-format-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-12-01 10:55:32
+(epstopdf)                    size: 24514 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/png-file-format-eps-co
+nverted-to.pdf img/png-file-format.eps>
+(epstopdf)             \includegraphics on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+<img/png-file-format-eps-converted-to.pdf, id=17, 99.37125pt x 173.64874pt>
+File: img/png-file-format-eps-converted-to.pdf Graphic file (type pdf)
+<use img/png-file-format-eps-converted-to.pdf>
+Package pdftex.def Info: img/png-file-format-eps-converted-to.pdf  used on inpu
+t line 25.
+(pdftex.def)             Requested size: 345.0pt x 603.0421pt.
+ [4
+
+
+
+]
+Overfull \vbox (74.70045pt too high) has occurred while \output is active []
+
+
+[5 <./img/png-file-format-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/png_magic_number.eps>
+(epstopdf)                    date: 2022-12-01 02:36:37
+(epstopdf)                    size: 109074 bytes
+(epstopdf)             Output file: <img/png_magic_number-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2022-12-01 10:55:33
+(epstopdf)                    size: 7058 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/png_magic_number-eps-c
+onverted-to.pdf img/png_magic_number.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+<img/png_magic_number-eps-converted-to.pdf, id=25, 867.24pt x 59.22125pt>
+File: img/png_magic_number-eps-converted-to.pdf Graphic file (type pdf)
+<use img/png_magic_number-eps-converted-to.pdf>
+Package pdftex.def Info: img/png_magic_number-eps-converted-to.pdf  used on inp
+ut line 28.
+(pdftex.def)             Requested size: 345.0pt x 23.55884pt.
+Package epstopdf Info: Source file: <img/png_ihdr.eps>
+(epstopdf)                    date: 2022-12-01 02:36:38
+(epstopdf)                    size: 354076 bytes
+(epstopdf)             Output file: <img/png_ihdr-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-12-01 10:55:33
+(epstopdf)                    size: 19730 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/png_ihdr-eps-converted
+-to.pdf img/png_ihdr.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+<img/png_ihdr-eps-converted-to.pdf, id=26, 862.22125pt x 200.75pt>
+File: img/png_ihdr-eps-converted-to.pdf Graphic file (type pdf)
+<use img/png_ihdr-eps-converted-to.pdf>
+Package pdftex.def Info: img/png_ihdr-eps-converted-to.pdf  used on input line 
+33.
+(pdftex.def)             Requested size: 345.0pt x 80.32307pt.
+Package epstopdf Info: Source file: <img/png_idat.eps>
+(epstopdf)                    date: 2022-12-01 02:36:39
+(epstopdf)                    size: 408404 bytes
+(epstopdf)             Output file: <img/png_idat-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-12-01 10:55:34
+(epstopdf)                    size: 21463 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/png_idat-eps-converted
+-to.pdf img/png_idat.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+<img/png_idat-eps-converted-to.pdf, id=27, 859.21pt x 232.87pt>
+File: img/png_idat-eps-converted-to.pdf Graphic file (type pdf)
+<use img/png_idat-eps-converted-to.pdf>
+Package pdftex.def Info: img/png_idat-eps-converted-to.pdf  used on input line 
+38.
+(pdftex.def)             Requested size: 345.0pt x 93.50522pt.
+Package epstopdf Info: Source file: <img/png_iend.eps>
+(epstopdf)                    date: 2022-12-01 02:36:39
+(epstopdf)                    size: 354481 bytes
+(epstopdf)             Output file: <img/png_iend-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-12-01 10:55:35
+(epstopdf)                    size: 13190 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/png_iend-eps-converted
+-to.pdf img/png_iend.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+<img/png_iend-eps-converted-to.pdf, id=28, 863.225pt x 200.75pt>
+File: img/png_iend-eps-converted-to.pdf Graphic file (type pdf)
+<use img/png_iend-eps-converted-to.pdf>
+Package pdftex.def Info: img/png_iend-eps-converted-to.pdf  used on input line 
+43.
+(pdftex.def)             Requested size: 345.0pt x 80.23117pt.
+ [6 <./img/png_magic_number-eps-converted-to.pdf> <./img/png_ihdr-eps-converted
+-to.pdf> <./img/png_idat-eps-converted-to.pdf> <./img/png_iend-eps-converted-to
+.pdf>]
+Package epstopdf Info: Source file: <img/RGB-png-bit-pixel-mode.eps>
+(epstopdf)                    date: 2022-12-01 10:54:20
+(epstopdf)                    size: 148235 bytes
+(epstopdf)             Output file: <img/RGB-png-bit-pixel-mode-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2022-12-01 10:55:35
+(epstopdf)                    size: 16305 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/RGB-png-bit-pixel-mode
+-eps-converted-to.pdf img/RGB-png-bit-pixel-mode.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<img/RGB-png-bit-pixel-mode-eps-converted-to.pdf, id=40, 321.2pt x 217.81375pt>
+
+File: img/RGB-png-bit-pixel-mode-eps-converted-to.pdf Graphic file (type pdf)
+<use img/RGB-png-bit-pixel-mode-eps-converted-to.pdf>
+Package pdftex.def Info: img/RGB-png-bit-pixel-mode-eps-converted-to.pdf  used 
+on input line 49.
+(pdftex.def)             Requested size: 345.0pt x 233.95908pt.
+Package epstopdf Info: Source file: <img/color_comparaison.eps>
+(epstopdf)                    date: 2022-12-01 11:08:46
+(epstopdf)                    size: 1424759 bytes
+(epstopdf)             Output file: <img/color_comparaison-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2022-12-01 11:10:32
+(epstopdf)                    size: 8087 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/color_comparaison-eps-
+converted-to.pdf img/color_comparaison.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+<img/color_comparaison-eps-converted-to.pdf, id=41, 960.58875pt x 244.915pt>
+File: img/color_comparaison-eps-converted-to.pdf Graphic file (type pdf)
+<use img/color_comparaison-eps-converted-to.pdf>
+Package pdftex.def Info: img/color_comparaison-eps-converted-to.pdf  used on in
+put line 60.
+(pdftex.def)             Requested size: 345.0pt x 87.96378pt.
+Package epstopdf Info: Source file: <img/LSB-image-steganography.eps>
+(epstopdf)                    date: 2022-12-01 11:19:16
+(epstopdf)                    size: 811876 bytes
+(epstopdf)             Output file: <img/LSB-image-steganography-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2022-12-01 11:21:09
+(epstopdf)                    size: 78264 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/LSB-image-steganograph
+y-eps-converted-to.pdf img/LSB-image-steganography.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+<img/LSB-image-steganography-eps-converted-to.pdf, id=42, 853.1875pt x 468.7512
+5pt>
+File: img/LSB-image-steganography-eps-converted-to.pdf Graphic file (type pdf)
+<use img/LSB-image-steganography-eps-converted-to.pdf>
+Package pdftex.def Info: img/LSB-image-steganography-eps-converted-to.pdf  used
+ on input line 68.
+(pdftex.def)             Requested size: 345.0pt x 189.54996pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 56--23
+
+ []
+
+[7 <./img/RGB-png-bit-pixel-mode-eps-converted-to.pdf>] [8 <./img/color_compara
+ison-eps-converted-to.pdf> <./img/LSB-image-steganography-eps-converted-to.pdf>
+]
+\openout2 = `parts/lsb-pratique.aux'.
+
+ (./parts/lsb-pratique.tex) [9
+
+
+
+]
+\openout2 = `parts/zero-width-character.aux'.
+
+ (./parts/zero-width-character.tex
+Package epstopdf Info: Source file: <img/zw-characters.eps>
+(epstopdf)                    date: 2022-12-01 14:37:49
+(epstopdf)                    size: 1147805 bytes
+(epstopdf)             Output file: <img/zw-characters-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-12-01 14:38:26
+(epstopdf)                    size: 53955 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/zw-characters-eps-conv
+erted-to.pdf img/zw-characters.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+<img/zw-characters-eps-converted-to.pdf, id=60, 639.38875pt x 296.10625pt>
+File: img/zw-characters-eps-converted-to.pdf Graphic file (type pdf)
+<use img/zw-characters-eps-converted-to.pdf>
+Package pdftex.def Info: img/zw-characters-eps-converted-to.pdf  used on input 
+line 11.
+(pdftex.def)             Requested size: 345.0pt x 159.773pt.
+ [10
+
+
+
+ <./img/zw-characters-eps-converted-to.pdf>]) [11]
+\openout2 = `parts/zero-width-character-en-pratique.aux'.
+
+
+(./parts/zero-width-character-en-pratique.tex) [12
+
+
+
+]
+\openout2 = `parts/conclusion.aux'.
+
+ (./parts/conclusion.tex)
+[13
+
+
+
+]
+\openout2 = `parts/references.aux'.
+
+ (./parts/references.tex) [14
+
+
+
+] (./main.aux (./parts/introduction.aux)
+(./parts/lsb.aux) (./parts/lsb-pratique.aux) (./parts/zero-width-character.aux)
+(./parts/zero-width-character-en-pratique.aux) (./parts/conclusion.aux)
+(./parts/references.aux)) ) 
+Here is how much of TeX's memory you used:
+ 1674 strings out of 479304
+ 26697 string characters out of 5869779
+ 305882 words of memory out of 5000000
+ 18831 multiletter control sequences out of 15000+600000
+ 408020 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,7n,74p,440b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-
+ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (14 pages, 323594 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
