@@ -6,6 +6,7 @@
 ### PNG format :
 - [w3c](https://www.w3.org/TR/2003/REC-PNG-20031110/)
 - [least significant bit](https://repository.root-me.org/St%C3%A9ganographie/EN%20-%20LSB%20Steganography.pdf)
+- least significant bit - misc N°47 page 75
 ### JPEG format :
 - [corkami/formats](https://github.com/corkami/formats/blob/master/image/jpeg.md)
 ### Text :
