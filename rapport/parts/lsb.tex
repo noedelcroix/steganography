@@ -52,6 +52,10 @@ Ici, je vais considérer que nous utillisons une image PNG sans compression où 
 Dans la section données du segment IDAT, les pixels sont allignés l'un à la suite de l'autre. Chacun des pixels est composé de 3 canaux (rouge, vert et bleu) pour représenter la couleur de ce pixel. Chaque ligne de pixels est d'une longeur définie par le segment IHDR.
 \newline
 Un pixel d'une image PNG-8 a donc une taille de 3 octets et permet d'avoir 256³ couleurs différentes.
+\subsection{Compression}
+Les fichiers PNG utilisant très souvent une compression pour les octets du segment IDAT, j'utiliserai la bibliothèque libpng pour l'implémentation de mon script afin de ne pas devoir gérer cette partie compression/decompression avant lecture/écriture.
+\newline
+Le format PNG supporte par défaut l'algorithme de compression deflate/inflate mais est capable d'en utiliser d'autres tel que GZIP.
 \subsection{LSB sur PNG}
 L'idée de la stéganographie least significant bit est d'utiliser le bit de poids faible des canaux d'un pixel pour insérer des données.
 \newline
@@ -62,6 +66,8 @@ Ici, nous avons 2 couleurs. Une couleur de référence (à gauche) et une couleu
 \newline
 La différence est (quasi) invisible à l'oeil nu et le fait qu'un pixel soit de taille très petite rend l'impossibilité de détecter la différence de couleur, en tant qu'humain.
 \newline
+Maintenant si l'on inverse les bits de poids fort, la couleur change totalement car ce bit à la possibilité d'ajouter ou de retirer 128 valeurs de couleur.
+\includegraphics[width=1\textwidth]{img/color_big_comparaison.png}
 \newline
 L'idée est donc de stocker des données binaires dans ces bits de poids faible. Exemple :
 \newline

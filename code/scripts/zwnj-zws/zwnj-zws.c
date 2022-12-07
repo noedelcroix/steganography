@@ -6,17 +6,19 @@
 #include <locale.h>
 #include <errno.h>
 
-wchar_t zwnj=0x200C;
-wchar_t zws=0x200B;
+wchar_t zwnj=0x200C; //zero-width non joiner represents 1
+wchar_t zws=0x200B; // zero-width space represents 0
 
 struct textInfos textinfos;
-int initZw(char txtPath[], int encodeMode, char text[]){
+int initZw(char * txtPath, int encodeMode, char * text){
     textinfos.path=txtPath;
     setlocale(LC_CTYPE, "");
     if(encodeMode){
         encodeZw(text);
+        printf("Encoding finished\n");
     }else{
         decodeZw();
+        printf("Decoding finished\n");
     }
     return 0;
 }
@@ -40,7 +42,8 @@ int encodeZw(char * text){
     fillTxtBuffer(text);
     textinfos.txtPtr=fopen(textinfos.path, "rw+");
     if(textinfos.txtPtr==NULL){
-        printf("Unable to open file. Check if the file exists and that it was correctly specified in the command.");
+        printf("Unable to open file. Check if the file exists"
+               " and that it was correctly specified in the command.");
         return 1;
     }
 
