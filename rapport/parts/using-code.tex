@@ -1,9 +1,19 @@
 \newpage
 \section{Utilisation des codes}
+\subsection{Démo}
 \begin{lstlisting}[language=bash,
-breaklines,
-rulecolor=\color{black},
-frame=single]
+breaklines]
 make
+\end{lstlisting}
+
+\subsection{Utilisation manuelle}
+\begin{lstlisting}[language=bash,
+breaklines]
 ./steganography <zero-width|lsb> <decode|encode> <chemin_fichier> <texte_optionnel>
 \end{lstlisting}
+\begin{itemize}
+\item Algorithme de stéganographie : zero-width ou lsb
+\item Action : encode ou decode
+\item Chemin vers le fichier qui stocke ou va stocker la donnée à cacher
+\item Texte qui va être caché (uniquement pour encode)
+\end{itemize}

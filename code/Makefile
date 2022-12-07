@@ -16,8 +16,8 @@ demo : build
 	@echo "\033[1;31mDecoding hidden data from the file :\033[0m"
 	./steganography zero-width decode $(shell pwd)/example.txt
 
-build : main.o zwnj-zws.o
-	gcc -g -Wall -o steganography main.o zwnj-zws.o -lm
+build : main.o zwnj-zws.o lsb.o
+	gcc -g -Wall -o steganography main.o zwnj-zws.o lsb.o -lm -lpng -lz
 
 clean : cleanObj
 	rm -f steganography
@@ -25,8 +25,11 @@ clean : cleanObj
 cleanObj :
 	rm -f *.o
 
-main.o : main.c scripts/zwnj-zws/zwnj-zws.h
-	gcc -c main.c -lm
+main.o : main.c scripts/zwnj-zws/zwnj-zws.h scripts/lsb/lsb.h
+	gcc -c main.c
 
 zwnj-zws.o : scripts/zwnj-zws/zwnj-zws.c scripts/zwnj-zws/zwnj-zws.h
-	gcc -c scripts/zwnj-zws/zwnj-zws.c  -lm
+	gcc -c scripts/zwnj-zws/zwnj-zws.c
+	
+lsb.o : scripts/lsb/lsb.c scripts/lsb/lsb.h
+	gcc -c scripts/lsb/lsb.c

@@ -10,8 +10,8 @@ struct textInfos{
     unsigned size;
 };
 
-int initZw(char txtPath[], int encodeMode, char text[]);
-int encodeZw(char text[]);
+int initZw(char * txtPath, int encodeMode, char * text);
+int encodeZw(char * text);
 int decodeZw();
 int fillTxtBuffer(const char * txt);
 void addToFile(char bina);
