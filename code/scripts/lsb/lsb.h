@@ -8,18 +8,6 @@
 enum Action{
     DECODE, ENCODE
 };
-/*
-struct img{
-    FILE * imgPtr;
-    png_structp pngPtrR;
-    png_structp pngPtrW;
-    png_infop infoPng;
-    png_bytepp rows;
-    unsigned char header;
-    png_uint_32 height;
-    unsigned char * txtBuff;
-    unsigned txtSize;
-};*/
 
 typedef struct png_t {
     int x, y;
