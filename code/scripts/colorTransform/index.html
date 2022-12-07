@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color picker</title>
+</head>
+<body>
+    <div id="container">
+        <div id="color1"></div>
+        <div id="color2"></div>
+        <input type="number" name="" min="0" max="7" id="bitChooser" value="0">
+        <input type="color" name="" id="input1">
+        <input type="color" name="" id="input2">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(()=>{
+            $("#input1").on("change", ()=>{
+                let color1=$("#input1").val()
+                console.log(color1)
+                let bit=$("#bitchooser").val()
+                let color2=0
+
+            })
+        })
+    </script>
+</body>
+</html>
