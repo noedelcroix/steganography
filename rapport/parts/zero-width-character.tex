@@ -2,9 +2,9 @@
 \section{Cacher du texte dans un fichier texte}
 Je vais maintenant parler d'une autre technique de stéganographie. Cette technique de stéganographie permet de cacher des données au sein d'un fichier texte, au moyen de caractères dits zero-width. Ce sont des charactères faisant partie des wide characters qui ne font pas partie d'unicode mais de UTF-8.
 \newline
-Cette technique n'a pas de limitations au niveau de la taille à insérer mais augmente la taille du fichier initial (8 fois la taille de la donnée à insérer).
+Cette technique n'a pas de limitations au niveau de la taille à insérer mais augmente la taille du fichier initial (16 fois la taille de la donnée à insérer).\cite{readWriteScript}
 \subsection{Caractères zero-width}
-Les caractères zero-width sont des caractères unicodes qui ne prennent pas de place dans le texte. Ils sont donc invisibles au lecteur du fichier.
+Les caractères zero-width sont des caractères unicodes qui ne prennent pas de place dans le texte. Ils sont donc invisibles au lecteur du fichier. Ils ne font pas partie d'unicode car ils sont codés sur 2 octets.
 \subsection{Fonctionnement}
 \subsubsection{Encodage}
 Cette technique convertit la valeur binaire de la donnée à insérer en caractères zero-width. On utilise deux caractères zero-width au choix (pour la démo et l'exemple j'utiliserai les caractères zero-width space et zero-width non joiner). Un des deux caractères zero width va représenter la valeur 1 binaire et l'autre caractère va représenter la valeur 0 binaire.

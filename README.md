@@ -1,4 +1,26 @@
-# sysg5 - g55990 - Stéganographie
+# sysg5 - g55990 - Delcroix - Stéganographie
+##Génération PDF
+```bash
+cd rapport
+pdflatex -shell-escape -interaction=nonstopmode -file-line-error main.tex
+bibtex main
+pdflatex -shell-escape -interaction=nonstopmode -file-line-error main.tex
+pdflatex -shell-escape -interaction=nonstopmode -file-line-error main.tex
+```
+
+##Démo et commandes
+```bash
+cd code
+
+#Demo
+make
+
+#Build
+make build
+
+#Run
+./steganography <zero−width|lsb> <decode|encode> <chemin fichier> <texte optionnel>
+```
 
 ## Bibliographie
 ### Idées de stéganographie :

@@ -3,6 +3,7 @@
 La technique de stéganographie LSB, pour least significant bit, est une méthode pour cacher des données que ce soit du texte, une image ou tout autre fichier dans une image en utilisant le bit de poids faible des octets représentant chaque pixel.
 \newline
 Cette technique ne comporte pas beaucoup de limitations ci ce n'est d'avoir une donnée à cacher d'une taille maximale en bits de 3/8 du nombre de pixels composant l'image au format PNG-8 (j'explique à la section x.x quelles en sont les raisons).
+~\cite{pngRationale}
 
 \subsection{Format PNG}
 Pour illustrer cette technique de stéganographie, je vais utiliser le format d'image PNG avec une taille de canal de couleur sur 8 bits.
@@ -56,6 +57,8 @@ Un pixel d'une image PNG-8 a donc une taille de 3 octets et permet d'avoir 256³
 Les fichiers PNG utilisant très souvent une compression pour les octets du segment IDAT, j'utiliserai la bibliothèque libpng pour l'implémentation de mon script afin de ne pas devoir gérer cette partie compression/decompression avant lecture/écriture.
 \newline
 Le format PNG supporte par défaut l'algorithme de compression deflate/inflate mais est capable d'en utiliser d'autres tel que GZIP.
+~\cite{pngStructure}
+~\cite{pngChunkInspector}
 \subsection{LSB sur PNG}
 L'idée de la stéganographie least significant bit est d'utiliser le bit de poids faible des canaux d'un pixel pour insérer des données.
 \newline

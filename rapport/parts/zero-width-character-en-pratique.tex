@@ -124,13 +124,11 @@ make build
 > gcc -g -Wall -o steganography main.o zwnj-zws.o lsb.o -lm -lpng -lz
 \end{lstlisting}
 
-Exécuter l'éxécutable généré en lui passant le type de stéganographie (zero-width), l'action(decode), le chemin du fichier qui contient la donnée cachée.
+Exécuter l'éxécutable généré en lui passant le type de stéganographie (zero-width), l'action(decode) et le chemin du fichier qui contient la donnée cachée.
 \begin{lstlisting}
 ./steganography zero-width decode /home/noedelcroix/Documents/SYSG5/code/supports/test.txt Hello world
-> Finished encoding
+> Finished decoding
 \end{lstlisting}
-
-
 \subsection{Résultat}
 Comparons le contenu du fichier avant et après.
 \newline

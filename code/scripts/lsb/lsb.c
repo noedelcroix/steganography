@@ -115,7 +115,6 @@ int writeData(char * text){
     for(int i=0; i<img.height && counter<strlen(text)*8; i++){
         for(int j=0; j<img.width && counter<strlen(text)*8; j++){
             img.row_pointers[i][j]=(img.row_pointers[i][j]&0xFE)+img.txtBuff[counter];
-            //printf("%d", img.row_pointers[i][j]);
             counter++;
         }
     }
@@ -134,7 +133,6 @@ int decodeLsb(){
     for(int i=0; i<img.height; i++){
         for(int j=0; j<img.width; j++){
             if(counter%8==0 && counter!=0){
-                //printf("%d %d\n", i, j);
                 if(currentChar<127)
                 printf("%c", currentChar);
                 currentChar=0;

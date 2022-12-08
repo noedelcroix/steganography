@@ -1,6 +1,9 @@
-demo : demo-zerowidth demo-lsb
+demo : clearstdout demo-zerowidth demo-lsb
 
 
+clearstdout:
+	@clear
+	
 demo-zerowidth : build
 	@echo "\033[1;31m##### Example zero-width #####\033[0m"
 	@echo "\033[1;92mCreating example.txt...\033[0m"
@@ -17,13 +20,18 @@ demo-zerowidth : build
 	@hexdump supports/example.txt
 	@echo "\033[1;31mDecoding hidden data from the file :\033[0m"
 	./steganography zero-width decode $(shell pwd)/supports/example.txt
+	@echo "\n\n\n"
 
 demo-lsb : build
 	@echo "\033[1;31m##### Example LSB #####\033[0m"
 	@echo "\033[1;92mCreating example.png...\033[0m"
 	@cp supports/he2b.png supports/example.png
+	@echo "\033[1;92mThis is the size of the file : \033[0m"
+	@stat --printf="example.png size : %s bytes\n" supports/example.png
 	@echo "\033[1;92mEncoding \"test\" in the example.png file...\033[0m"
 	./steganography lsb encode $(shell pwd)/supports/example.png test
+	@echo "\033[1;92mThe size of the file didn't change : \033[0m"
+	@stat --printf="example.png size : %s bytes\n" supports/example.png
 	@echo "\033[1;31mDecoding hidden data from the file :\033[0m"
 	./steganography lsb decode $(shell pwd)/supports/example.png | head -c 4
 	@echo "\n"
