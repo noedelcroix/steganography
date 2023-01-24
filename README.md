@@ -1,4 +1,5 @@
 # sysg5 - g55990 - Delcroix - Stéganographie
+A project made for my system course. There are two kind of steganography in this project : LSB on PNG files and homemade white-space characters steganography.
 ## Génération PDF
 ```bash
 cd rapport
