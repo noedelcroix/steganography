@@ -1,5 +1,5 @@
 # sysg5 - g55990 - Delcroix - Stéganographie
-##Génération PDF
+## Génération PDF
 ```bash
 cd rapport
 pdflatex -shell-escape -interaction=nonstopmode -file-line-error main.tex
@@ -8,17 +8,17 @@ pdflatex -shell-escape -interaction=nonstopmode -file-line-error main.tex
 pdflatex -shell-escape -interaction=nonstopmode -file-line-error main.tex
 ```
 
-##Démo et commandes
+## Démo et commandes
 ```bash
 cd code
 
-#Demo
+# Demo
 make
 
-#Build
+# Build
 make build
 
-#Run
+# Run
 ./steganography <zero−width|lsb> <decode|encode> <chemin fichier> <texte optionnel>
 ```
 
